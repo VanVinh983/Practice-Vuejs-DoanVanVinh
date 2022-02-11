@@ -35,7 +35,7 @@ export default defineComponent({
         }
       });
     }
-    const textDate = 'Lịch khám bệnh ngày '+ new Date().toLocaleTimeString()+' - Bác sĩ: '+ doctor.value.doctor_name;
+    const textDate = 'Lịch khám bệnh ngày '+ new Date().toLocaleDateString()+' - Bác sĩ: '+ doctor.value.doctor_name;
     return{textDate};
   }
 });

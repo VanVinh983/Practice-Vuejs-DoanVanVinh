@@ -55,7 +55,9 @@
                       <div v-else>
                         <v-icon small color="green">mdi-circle-outline</v-icon>
                       </div>
-                      <span>{{patient.symptom.substring(0,20)+"..."}}</span>
+                      <span>{{
+                        patient.symptom.substring(0, 20) + "..."
+                      }}</span>
                     </v-layout>
                   </div>
                 </v-layout>
@@ -106,7 +108,7 @@ export default defineComponent({
         patients.value.push(a);
       }
     });
-    return { doctor, patients};
+    return { doctor, patients };
   },
 });
 </script>
