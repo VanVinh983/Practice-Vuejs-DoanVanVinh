@@ -1,3 +1,6 @@
+url access practice: http://localhost:3000/?doctor_id=<id doctor from 1 to 3>
+
+
 # BookingAppointment
 
 ## Build Setup
